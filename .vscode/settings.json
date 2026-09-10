@@ -1,0 +1,11 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/../.venv/Scripts/python.exe",
+  "python.linting.enabled": true,
+  "terminal.integrated.env.windows": {
+    "PYTHONPATH": "${workspaceFolder}"
+  },
+  "terminal.integrated.shellArgs.windows": [
+    "/k",
+    "${workspaceFolder}\\..\.venv\\Scripts\\activate.bat"
+  ]
+}
